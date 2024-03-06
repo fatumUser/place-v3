@@ -1,0 +1,335 @@
+.section-popaps {
+  margin-top: 30px;
+}
+
+.section-popaps .row-divisions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #f5f5f5;
+  padding: 10px;
+}
+
+.section-popaps .row-divisions .btn-block {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 21px;
+}
+
+.section-popaps .popap-auth,
+.popap-regist {
+  display: none;
+  width: 100%;
+  height: auto;
+  border: 1px solid #bfc0c3;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 52px;
+}
+.popap-regist {
+  display: block;
+}
+.section-popaps .popap-auth form,
+.popap-regist form {
+  max-width: 603px;
+  margin: 0 auto;
+}
+.section-popaps .popap-auth h1,
+.popap-regist h1 {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.section-popaps .popap-auth form input,
+.popap-regist form input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #bfc0c3;
+  padding: 20px;
+  border: 1px solid #bfc0c3;
+}
+.section-popaps form input:focus {
+  outline: none;
+  border: 1px solid #f59100;
+}
+.section-popaps .popap-auth form input.input-phone,
+.popap-regist form input.input-phone {
+  margin-bottom: 10px;
+}
+.section-popaps .popap-auth form .p1,
+.popap-regist form .p1 {
+  display: flex;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.section-popaps .popap-auth form a,
+.popap-regist form a {
+  font-weight: 700;
+  color: #f59100;
+  text-decoration: underline;
+}
+.section-popaps .popap-auth form button.btn,
+.popap-regist form button.btn {
+  padding: 20px 146.5px;
+  border: none;
+  background: #f59100;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-popaps {
+  }
+
+  .section-popaps .row-divisions {
+    gap: 10px;
+    padding: 0;
+    background: none;
+  }
+
+  .section-popaps .row-divisions .btn-block {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    border: 1px solid #004d56;
+  }
+
+  .section-popaps .popap-auth,
+  .popap-regist {
+    padding: 0;
+  }
+  .section-popaps .popap-auth form,
+  .popap-regist form {
+    display: block;
+    padding: 30px 20px;
+  }
+  .section-popaps .popap-auth h1 {
+  }
+
+  .section-popaps .popap-auth form input {
+  }
+  .section-popaps .popap-auth form input.input-phone {
+  }
+  .section-popaps .popap-auth form .p1,
+  .popap-regist form .p1 {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+  }
+  .section-popaps .popap-auth form a {
+    font-size: 14px;
+  }
+  .section-popaps .popap-auth form button.btn {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+}
+
+.popap-auth-successfully {
+  display: grid;
+  background: #f59100;
+  padding: 191px 20px;
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+}
+.popap-auth-successfully h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.popap-auth-successfully .btn {
+  max-width: max-content;
+  color: #000;
+  background: #fff;
+  padding: 20px 79.5px;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .popap-auth-successfully {
+    padding: 100px 20px;
+  }
+  .popap-auth-successfully .btn {
+    padding: 20px;
+  }
+}
+
+.section-popaps .popap-recover-password {
+  display: none;
+  width: 100%;
+  height: 503px;
+  border: 1px solid #bfc0c3;
+  text-align: center;
+  margin-top: 40px;
+}
+.section-popaps .popap-recover-password h1 {
+  margin-top: 0;
+}
+.section-popaps .popap-recover-password form {
+  max-width: 603px;
+  margin: auto;
+}
+.section-popaps .popap-recover-password form input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #bfc0c3;
+  padding: 20px;
+  border: 1px solid #bfc0c3;
+}
+.section-popaps .popap-recover-password form button.btn {
+  padding: 20px 146.5px;
+  border: none;
+  background: #f59100;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-popaps .popap-recover-password {
+    padding: 0;
+  }
+  .section-popaps .popap-recover-password form {
+    display: block;
+    padding: 30px 20px;
+  }
+  .section-popaps .popap-recover-password form button.btn {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+}
+
+.popap-regist {
+  display: none;
+}
+.form-regist {
+}
+.popap-regist form .p1 {
+  justify-content: left;
+}
+.popap-regist form a {
+  text-align: left;
+}
+.form-regist .container-inputs {
+  display: grid;
+  gap: 10px;
+}
+.form-regist .wrapper-input {
+  display: flex;
+}
+.popap-regist form button.btn {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.form-regist .wrapper-input .btn {
+  width: 164px;
+  min-width: 164px;
+  padding: 0 24px;
+  margin: 0;
+  white-space: nowrap;
+}
+.form-regist .wrapper-input input {
+  display: block;
+  margin-bottom: 0 !important;
+}
+.form-regist .row-agreement {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 32px;
+}
+.form-regist .row-agreement input.checkbox {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+.form-regist .row-agreement input.checkbox:checked + label::before {
+  border-color: #d0d3d6;
+  background-color: #c9c9c9;
+  background-image: url(/img/icons/tg.svg);
+}
+.form-regist .row-agreement p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-regist #wrapper-input-phone {
+    display: block;
+  }
+  .form-regist #wrapper-input-phone .btn {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 10px;
+  }
+}
+
+.wrapper-popap-cms {
+  display: grid;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #00000060;
+}
+
+.popap-cms {
+  position: relative;
+  width: auto;
+  max-width: 487px;
+  padding: 98px 160px;
+  background: #fff;
+  margin: auto;
+}
+
+.popap-cms .btn {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 31px;
+  background: #f59100;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.popap-cms .btn-close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}

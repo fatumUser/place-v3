@@ -1,0 +1,728 @@
+.section-rent-storage {
+  margin-top: calc(111px - 33px);
+}
+.section-rent-storage h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.section-rent-storage .top-row .row {
+  display: flex;
+  max-width: 977px;
+  margin: 0 auto;
+  height: 10px;
+  justify-content: space-between;
+  background: #e8e8e8;
+  margin-top: 50px;
+}
+.section-rent-storage .top-row .block {
+  position: relative;
+  display: grid;
+  max-width: 44px;
+  gap: 8px;
+  margin-top: -15px;
+}
+.section-rent-storage .top-row .block img {
+  width: 44px;
+}
+.section-rent-storage .top-row .block p {
+  white-space: nowrap;
+  transform: translateX(-35%);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.section-rent-storage .top-row #block-3 p {
+  transform: translateX(-15%);
+}
+.section-rent-storage .container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 90px;
+}
+.section-rent-storage .container .left-col .info {
+  padding-left: 40px;
+}
+.section-rent-storage .container .left-col h2 {
+}
+.section-rent-storage .container .left-col .p1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-top: 20px;
+}
+.section-rent-storage .container .left-col .p2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 12px;
+}
+
+.section-rent-storage .container .left-col .section-popaps {
+  padding: 20px;
+  border: 1px solid #bfc0c3;
+}
+.section-rent-storage .container .left-col .section-popaps .popap-auth,
+.section-rent-storage .container .left-col .section-popaps .popap-regist {
+  border: 0;
+  padding: 0;
+}
+
+.section-rent-storage .container .left-col .section-popaps .popap-auth form .p1,
+.section-rent-storage
+  .container
+  .left-col
+  .section-popaps
+  .popap-regist
+  form
+  .p1 {
+  text-align: left;
+  font-size: 14px;
+  justify-content: left;
+}
+.section-rent-storage
+  .container
+  .left-col
+  .section-popaps
+  form
+  .row-agreement
+  .p1 {
+  margin-top: 0;
+  line-height: normal;
+}
+.section-rent-storage .container .left-col .section-popaps .popap-auth form a {
+  font-size: 14px;
+  text-align: left;
+}
+
+.section-rent-storage
+  .container
+  .left-col
+  .section-popaps
+  .popap-auth
+  .row-agreement {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 32px;
+}
+.section-rent-storage
+  .container
+  .left-col
+  .section-popaps
+  .popap-auth
+  .row-agreement
+  input.checkbox {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+.section-rent-storage
+  .container
+  .left-col
+  .section-popaps
+  .popap-auth
+  .row-agreement
+  input.checkbox:checked
+  + label::before {
+  border-color: #d0d3d6;
+  background-color: #c9c9c9;
+  background-image: url(/img/icons/tg.svg);
+}
+.section-rent-storage
+  .container
+  .left-col
+  .section-popaps
+  .popap-auth
+  .row-agreement
+  p {
+  margin: 0;
+}
+.section-rent-storage
+  .container
+  .left-col
+  .section-popaps
+  .popap-auth
+  form
+  button.btn {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 20px;
+}
+.section-rent-storage .popap-auth .btn-recover-password {
+  margin-top: 15px;
+}
+.section-rent-storage .right-col.product {
+  border: 1px solid #bfc0c3;
+}
+.section-rent-storage .right-col.product img {
+  width: 100%;
+}
+.section-rent-storage .right-col.product .top-row {
+  display: flex;
+  align-items: center;
+  height: auto;
+  background: none;
+  margin-top: 0;
+}
+.section-rent-storage .right-col.product .txt-content-product {
+  padding: 25px 30px;
+}
+.section-rent-storage .right-col.product .top-row .title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.section-rent-storage .right-col.product .top-row .price {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #f59100;
+  margin-left: auto;
+}
+.section-rent-storage .right-col.product .main-attribute {
+  max-width: max-content;
+  padding: 10px 20px;
+  border-radius: 40px;
+  background: #d9d9d9a1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 13px;
+}
+.section-rent-storage .right-col.product .container-attributes {
+  display: grid;
+  gap: 15px;
+  margin-top: 20px;
+}
+.section-rent-storage .right-col.product .container-attributes .row {
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dddee1;
+}
+.section-rent-storage
+  .right-col.product
+  .container-attributes
+  .row
+  .title-attribute {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #bfc0c3;
+}
+.section-rent-storage
+  .right-col.product
+  .container-attributes
+  .row
+  .value-attribute {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #2d3a3d;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-rent-storage {
+    margin-top: calc(45px - 33px);
+  }
+  .section-rent-storage .top-row .row {
+    padding: 0 26px;
+  }
+  .section-rent-storage .top-row .block p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    white-space: normal;
+    transform: translateX(-28%);
+  }
+  .section-rent-storage .top-row .block img {
+  }
+  .section-rent-storage .container {
+    display: block;
+  }
+  .section-rent-storage .container .left-col h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+  }
+  .section-rent-storage .container .left-col .p1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 12px;
+  }
+  .section-rent-storage .container .left-col .p2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: 12px;
+  }
+  .section-rent-storage .container .left-col .section-popaps form {
+    padding: 0;
+  }
+  .section-rent-storage .container .left-col .info {
+    padding-left: 0px;
+  }
+  .section-rent-storage .right-col.product {
+    margin-top: 52px;
+  }
+  .section-rent-storage .right-col.product .txt-content-product {
+    padding: 16px 20px;
+    padding-bottom: 24px;
+  }
+  .section-rent-storage .right-col.product .top-row .title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+  }
+  .section-rent-storage .right-col.product .top-row .price {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+  }
+  .section-rent-storage .right-col.product .main-attribute {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  .section-rent-storage .right-col.product .container-attributes {
+    gap: 10px;
+  }
+  .section-rent-storage .right-col.product .container-attributes .row {
+    padding-bottom: 10px;
+  }
+  .section-rent-storage
+    .right-col.product
+    .container-attributes
+    .row
+    .title-attribute {
+    font-size: 14px;
+    font-weight: 17px;
+  }
+  .section-rent-storage
+    .right-col.product
+    .container-attributes
+    .row
+    .value-attribute {
+    font-size: 14px;
+    font-weight: 17px;
+  }
+}
+
+.section-rent-storage .form-tariffs {
+  margin-top: 57px;
+  padding: 20px;
+  padding-top: 21px;
+  padding-bottom: 40px;
+  border: 1px solid #bfc0c3;
+}
+.section-rent-storage .form-tariffs input {
+  width: 100%;
+  padding: 21.5px 47px;
+  padding-right: 42px;
+  border: 1px solid #bfc0c3;
+  background: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #bfc0c3;
+  opacity: 0.6;
+}
+.section-rent-storage .form-tariffs .row-tariffs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+
+.section-rent-storage .form-tariffs .row-tariffs .block {
+  padding: 8.5px 16.5px;
+  border: 2px solid #2d3a3d;
+  text-align: center;
+}
+
+.section-rent-storage .form-tariffs .row-tariffs .block .period {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.section-rent-storage .form-tariffs .row-tariffs .block .price {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.section-rent-storage .form-tariffs .total {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 44px;
+  background-color: #2d3a3d;
+  margin-top: 27px;
+}
+.section-rent-storage .form-tariffs .total p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+.section-rent-storage .form-tariffs .total p.price {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+.section-rent-storage .form-tariffs .wrapper-input {
+  display: flex;
+  margin-top: 42px;
+}
+.section-rent-storage .form-tariffs .wrapper-input .btn {
+  width: 197px;
+  min-width: 197px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  background: #f59100;
+  border: none;
+}
+
+.section-rent-storage .row-divisions {
+  display: grid;
+  gap: 19px;
+  grid-template-columns: 1fr 1fr;
+  width: auto;
+  margin-top: 53px;
+}
+.section-rent-storage .row-divisions .btn-block {
+  padding: 24px 0;
+  border: 1px solid #2d3a3d;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+}
+.section-rent-storage .division-online-payment,
+.section-rent-storage .division-payment-by-invoice {
+  display: grid;
+  display: none;
+  gap: 19px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 31px;
+}
+.section-rent-storage .division-online-payment .p1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+.section-rent-storage .division-online-payment .title {
+  margin-bottom: 15px;
+}
+.section-rent-storage .division-online-payment .card {
+  display: flex;
+  align-items: center;
+  padding: 13px 45px 14px 20px;
+  border: 1px solid #2d3a3d;
+}
+.section-rent-storage .division-online-payment .card img {
+}
+.section-rent-storage .division-online-payment .card .wrapper-txt {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-left: 16px;
+}
+.section-rent-storage .division-online-payment .card span {
+  font-size: 24px;
+  font-weight: 600;
+}
+.section-rent-storage .division-online-payment .card p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+}
+.section-rent-storage .division-online-payment .card input {
+  width: 33px;
+  height: 33px;
+  margin-left: auto;
+  margin-top: 0;
+}
+.section-rent-storage .division-online-payment .select {
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 12px 23px;
+  padding-right: 45px;
+  border: 1px solid #bfc0c3;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+}
+.section-rent-storage .division-online-payment .select p {
+  margin-left: 19px;
+}
+.section-rent-storage .division-online-payment .select img.arrow {
+  margin-left: auto;
+}
+
+.section-rent-storage .division-online-payment select::before {
+  content: url(/img/icons/icon-viza.svg);
+  position: absolute;
+  display: block;
+  width: 37px;
+  height: 36px;
+  background-image: url(/img/icons/icon-viza.svg);
+}
+.section-rent-storage .division-online-payment .row-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.section-rent-storage .division-online-payment .row-checkbox,
+.section-rent-storage .division-payment-by-invoice .row-checkbox {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 15px;
+}
+.section-rent-storage .division-online-payment .row-checkbox input,
+.section-rent-storage .division-payment-by-invoice .row-checkbox input {
+  width: 30px;
+  height: 30px;
+}
+.section-rent-storage .division-online-payment .row-checkbox p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.section-rent-storage .division-online-payment .row-checkbox2 p,
+.section-rent-storage .division-payment-by-invoice .row-checkbox p {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.section-rent-storage .division-online-payment .row-checkbox2 p a,
+.section-rent-storage .division-payment-by-invoice .row-checkbox p a {
+  color: #f59100;
+  text-decoration: underline;
+}
+.section-rent-storage .division-online-payment .btn {
+  width: 100%;
+  padding: 30px 0;
+  margin-top: 50px;
+  border: none;
+  background: #f59100;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+}
+
+.section-rent-storage .division-online-payment .right-col p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 31px;
+  margin-top: 37px;
+}
+
+.section-rent-storage .division-payment-by-invoice .left-col p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 31px;
+  margin-top: 87px;
+}
+.section-rent-storage .division-payment-by-invoice .left-col p span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 31px;
+  margin-top: 20px;
+}
+.section-rent-storage .division-payment-by-invoice .right-col {
+}
+.section-rent-storage .division-payment-by-invoice .right-col .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.section-rent-storage .division-payment-by-invoice .right-col .desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 13px;
+}
+.section-rent-storage
+  .division-payment-by-invoice
+  .right-col
+  .container-inputs {
+  display: grid;
+  gap: 17px;
+  margin-top: 31px;
+}
+.section-rent-storage .division-payment-by-invoice .right-col input {
+  padding: 20px 22px;
+  padding-top: 19px;
+  border: 1px solid #bfc0c3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #afafaf;
+  opacity: 0.6;
+}
+.section-rent-storage .division-payment-by-invoice .right-col .btn {
+  width: 100%;
+  padding: 30px 0;
+  border: none;
+  background: #f59100;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .section-rent-storage .row-divisions {
+    width: auto;
+    padding: 10px;
+    background: #f5f5f5;
+    margin-top: 20px;
+  }
+  .section-rent-storage .row-divisions .btn-block {
+    border: none;
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .section-rent-storage .form-tariffs {
+    margin-top: 28px;
+  }
+  .section-rent-storage .form-tariffs input {
+    padding: 22px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .section-rent-storage .division-online-payment,
+  .section-rent-storage .division-payment-by-invoice {
+    grid-template-columns: 1fr;
+  }
+  .section-rent-storage .division-payment-by-invoice .left-col {
+    order: 2;
+  }
+  .section-rent-storage .form-tariffs .row-tariffs {
+    display: block;
+  }
+  .section-rent-storage .form-tariffs .row-tariffs .block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 25px;
+    margin-top: 10px;
+  }
+  .section-rent-storage .form-tariffs .row-tariffs .block .price {
+    margin-top: 0;
+  }
+  .section-rent-storage .form-tariffs .total {
+    margin-top: 17px;
+  }
+  .section-rent-storage .form-tariffs .wrapper-input {
+    margin-top: 17px;
+  }
+  .section-rent-storage .division-online-payment .row-checkbox2 p,
+  .section-rent-storage .division-payment-by-invoice .row-checkbox p {
+    display: block;
+  }
+  .section-rent-storage .division-online-payment .right-col p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-top: 10px;
+  }
+  .section-rent-storage .division-payment-by-invoice .left-col p {
+    margin-top: 50px;
+  }
+  .section-rent-storage .division-online-payment .card,
+  .section-rent-storage .division-online-payment .select {
+    padding-right: 20px;
+  }
+  .section-rent-storage .division-online-payment .card .wrapper-txt p,
+  .section-rent-storage .division-online-payment .card .wrapper-txt span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .section-rent-storage .division-online-payment .btn {
+    margin-top: 39px;
+  }
+}
+
+/* STEP 4 */
+
+.section-rent-storage-step4 .left-col form {
+  display: grid;
+  gap: 10px;
+  padding: 25px;
+  margin-top: 62px;
+  margin-bottom: 0;
+  border: 1px solid #bfc0c360;
+}
+
+.section-rent-storage-step4 .left-col form input {
+  padding: 20px 22px;
+  padding-top: 19px;
+  border: 1px solid #bfc0c3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #afafaf;
+  opacity: 0.6;
+}
+.section-rent-storage-step4 .left-col form .grid-inputs {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+.section-rent-storage-step4 .left-col form .btn {
+  width: 100%;
+  padding: 20px 0;
+  border: none;
+  background: #f59100;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-rent-storage-step4 .left-col form {
+     display: block;
+     padding: 20px;
+     padding-top: 10px;
+     margin-top: 30px;
+  }
+  .section-rent-storage-step4 .left-col form input {
+   width: 100%;
+   margin-top: 10px;
+  }
+  .section-rent-storage-step4 .left-col form .grid-inputs {
+    display: block;
+  }
+  .section-rent-storage-step4 .left-col form .btn {
+    margin-top: 10px;
+  }
+  .section-rent-storage-step4 .right-col.product {
+    margin-top: 30px;
+  }
+}
